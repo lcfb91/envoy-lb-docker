@@ -32,7 +32,7 @@ static_resources:
         - endpoint:
             address:
               socket_address:
-                address: luis.chernobyl.codavel.com
+                address: 54.229.66.15
                 port_value: 5201
 #   - name: listener_1
 #     address:

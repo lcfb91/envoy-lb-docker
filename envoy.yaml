@@ -46,9 +46,9 @@ static_resources:
             - endpoint:
                 address:
                     socket_address:
-                        protocol: UDP
+                        protocol: TCP
                         address: 54.229.66.15
-                        port_value: 5201
+                        port_value: 5200
     - name: service_udp
       connect_timeout: 0.25s
       type: STATIC
@@ -60,6 +60,6 @@ static_resources:
             - endpoint:
                 address:
                     socket_address:
-                        protocol: TCP
+                        protocol: UDP
                         address: 54.229.66.15
-                        port_value: 5200
+                        port_value: 5201

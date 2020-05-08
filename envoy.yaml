@@ -13,7 +13,7 @@ static_resources:
             socket_address:
                 protocol: TCP
                 address: 0.0.0.0
-                port_value: 5201
+                port_value: 5200
       filter_chains:
       - filters:
             - name: envoy.filters.network.tcp_proxy
@@ -62,4 +62,4 @@ static_resources:
                     socket_address:
                         protocol: TCP
                         address: 54.229.66.15
-                        port_value: 5201
+                        port_value: 5200

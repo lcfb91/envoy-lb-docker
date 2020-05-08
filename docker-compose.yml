@@ -6,4 +6,5 @@ services:
     image: lcfb91/envoy:latest
     ports:
     - "5000:5201/udp"
+    - "5000:5201/tcp"
     restart: always

@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+
+  load_balancer:
+    image: lcfb91/envoy:latest
+    ports:
+    - "5000:5201/udp"
+    restart: always

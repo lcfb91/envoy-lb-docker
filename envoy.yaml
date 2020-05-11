@@ -35,7 +35,7 @@ static_resources:
     clusters:
     - name: service_tcp
       connect_timeout: 1s
-      type: STATIC
+      type: STRICT_DNS
       lb_policy: ROUND_ROBIN
       load_assignment:
         cluster_name: service_tcp
@@ -49,7 +49,7 @@ static_resources:
                         port_value: 5200
     - name: service_udp
       connect_timeout: 0.25s
-      type: STATIC
+      type: STRICT_DNS
       lb_policy: ROUND_ROBIN
       load_assignment:
         cluster_name: service_udp

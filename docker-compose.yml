@@ -5,6 +5,6 @@ services:
   load_balancer:
     image: lcfb91/envoy:latest
     ports:
-    - "5000:5201/udp"
-    - "5000:5201/tcp"
+    - "9000:9000/udp"
+    - "9001:9001/tcp"
     restart: always
